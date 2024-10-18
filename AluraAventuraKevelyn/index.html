@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>EL DORADO</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Em um dia comum de aula, eu estava tendo um conversa com a minha professora de história e ela comentou sobre um cidade perdida chamada “EL DORADO”, fiquei muito interessada e decide procurar a cidade.</p>
+            <button class="btn-proximo" data-proximo="1">Roraima</button>
+            <button class="btn-proximo" data-proximo="2">Rio Grande do Norte</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Fui para o Rio Grande do Norte, mas não havia nada lá, apenas um livro em uma biblioteca que dizia para ir para Iracema, na Roraima.</p>
+            <button class="btn-proximo" data-proximo="3">Ir para a Roraima.</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Cheguei em Iracema,  afinal as minhas pesquisas sugeriam que El Dorado estaria ali próximo da cidade.</p>
+            <button class="btn-proximo" data-proximo="5">Ir ao Museu Figueiredo.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No museu tem várias pistas ou descobertas da possível existência de El Dorado, então passei algumas horas no museu pesquisando.</p>
+            <button class="btn-proximo" data-proximo="6">Me juntar a um grupo de descobridores de cidades.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Conheci um grupo através da internet que também estava a procura da cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="7">Ir para a trilha.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Fomos todos para uma trilha que indicava que El Dorado estaria logo no final do caminho.</p>
+            <button class="btn-proximo" data-proximo="8">Andar por alguns quilômetros.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Andamos muito, que meus pés já estavam dando bolha, mas valeu a pena porque encontramos um rio que levaria até a cidade El Dorado.</p>
+            <button class="btn-proximo" data-proximo="9">Ir de barco até o outro lado. </button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Pegamos o barco até o outro lado do rio, e lá estava a cidade de El Dorado, na verdade havíamos encontrado o que restava da cidade, até porque ela estava perdida há 1000 anos, só tinha alguns vestígios da cidade.</p>
+            <button class="btn-proximo" data-proximo="10">Se voluntariar para a próxima aventura.</button>
+            <button class="btn-proximo" data-proximo="11">Ir para casa e comemorar.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Eu fui embora para casa porque estava exausta da grande vitória mas muito feliz pela experiência e descoberta.</p>
+            <button class="btn-proximo" data-proximo="12">Fim.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Feliz da última vitória, resolvi me voluntariar para outra aventura.</p>
+            <button class="btn-proximo" data-proximo="13">PARABÉNS VOCÊ CONCLUIU A AVENTURA.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
